@@ -33,6 +33,13 @@ We used PA Lifecycle Callback methods to update one condition based on another c
 Additionally, we created our own error classes. This way, when the system encounters an error, it hides any sensitive or potentially vulnerable information and only displays the message we want on the screen.
 ![image](https://github.com/user-attachments/assets/4aaebac8-6164-46a0-983b-712badb597a2)
 
+------------------------------------------------------------------------------------------------------------------
+
+
+I added logging to the project with AOP
+![image](https://github.com/user-attachments/assets/bb7c407d-bc3b-4bfe-ab97-e314de953a78)
+
+
 <br/><br/>
 
 ## Photos
