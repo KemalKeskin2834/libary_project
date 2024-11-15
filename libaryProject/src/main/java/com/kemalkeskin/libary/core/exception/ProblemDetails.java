@@ -5,11 +5,12 @@ import lombok.*;
 
 @Getter
 @Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class ProblemDetails {
 
     private String message;
 
-    public ProblemDetails(String message) {
-        this.message = message;
-    }
+
+
 }

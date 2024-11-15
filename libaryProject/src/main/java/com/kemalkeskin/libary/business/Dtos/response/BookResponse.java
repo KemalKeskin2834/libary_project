@@ -15,18 +15,13 @@ public class BookResponse {
 
     private String name;
 
-
     private int pageNumbers;
-
 
     private String status;
 
-
     private String authorName;
 
-
     private String publisherName;
-
 
     private String bookType;
 

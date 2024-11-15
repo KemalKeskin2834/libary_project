@@ -24,4 +24,13 @@ public class LibaryProjectApplication {
 		ProblemDetails problemDetails=new ProblemDetails(businessException.getMessage());
 		return problemDetails;
 	}
+
+	@ExceptionHandler
+	@ResponseStatus(HttpStatus.BAD_REQUEST)
+	public ProblemDetails handlerProblemDetails(StackOverflowError stackOverflowError){
+		ProblemDetails problemDetails=new ProblemDetails();
+		problemDetails.setMessage(stackOverflowError.getMessage());
+		return problemDetails;
+	}
+
 }
