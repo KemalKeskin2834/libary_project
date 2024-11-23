@@ -12,7 +12,7 @@ import com.kemalkeskin.libary.business.Dtos.response.AuthorResponse;
 import lombok.AllArgsConstructor;
 
 @RestController
-@RequestMapping("/authors")
+@RequestMapping("/api/authors")
 @AllArgsConstructor
 public class AuthorControllers {
 

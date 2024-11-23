@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.Objects;
 
 @RestController
-@RequestMapping("/rentBooks")
+@RequestMapping("/api/rentBooks")
 @AllArgsConstructor
 public class RentBookControllers {
 

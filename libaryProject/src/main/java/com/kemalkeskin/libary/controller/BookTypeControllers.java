@@ -13,7 +13,7 @@ import com.kemalkeskin.libary.business.Dtos.response.BookTypeResponse;
 import lombok.AllArgsConstructor;
 
 @RestController
-@RequestMapping("/booktypes")
+@RequestMapping("/api/booktypes")
 @AllArgsConstructor
 public class BookTypeControllers {
 

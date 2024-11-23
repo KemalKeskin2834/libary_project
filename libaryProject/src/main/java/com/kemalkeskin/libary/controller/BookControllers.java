@@ -2,6 +2,7 @@ package com.kemalkeskin.libary.controller;
 
 import java.util.List;
 
+import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -14,7 +15,7 @@ import com.kemalkeskin.libary.business.Dtos.response.BookResponse;
 import lombok.AllArgsConstructor;
 
 @RestController
-@RequestMapping("/books")
+@RequestMapping("/api/books")
 @AllArgsConstructor
 public class BookControllers {
 
@@ -56,6 +57,9 @@ public class BookControllers {
         bookService.delete(id);
         return new ResponseEntity<Void>(HttpStatus.OK);
     }
+
+    // eğer oturum kimliğine ulaşmak için metotlara  parametre olarak HttpServletResponse vermemiz yeterlidir.
+    // sonrada bunu metot içinde çağırarak bulururuz getıd ile onude getsession ile
 
 
 }

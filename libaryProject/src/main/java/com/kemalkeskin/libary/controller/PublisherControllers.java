@@ -12,7 +12,7 @@ import com.kemalkeskin.libary.business.Dtos.response.PublisherResponse;
 import lombok.AllArgsConstructor;
 
 @RestController
-@RequestMapping("/publishers")
+@RequestMapping("/api/publishers")
 @AllArgsConstructor
 public class PublisherControllers {
 
